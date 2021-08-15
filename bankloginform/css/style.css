@@ -1,0 +1,13 @@
+.extra_background{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.doller{
+    font-size: 50px;
+    color: red;
+}
+.extraColor{
+    background-color: rgb(245, 245, 245);
+}
