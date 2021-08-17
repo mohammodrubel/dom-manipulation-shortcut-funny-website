@@ -38,14 +38,14 @@ document.getElementById('Withdraw_button').addEventListener('click',function (){
         const withdroTotalText = withdrowTotal.innerText;
         const previousWithdrowTotal = parseFloat(withdroTotalText)
 
-            const newWithdroTotal = previousWithdrowTotal + withdroTotal
+        const main=withdrowTotal.innerText = previousWithdrowTotal + withdroTotal
 
-            withdrowTotal.innerText = newWithdroTotal
+            withdrowTotal.innerText = main
                 // update new Balance 
                 const newBalance = document.getElementById('diposit_balance')
                 const previousBalenceText =newBalance.innerText;
                 const previousBalanceUpdate = parseFloat(previousBalenceText)
-                const total = previousBalanceUpdate - newWithdroTotal;
+                const total = previousBalanceUpdate - withdroTotal;
                 newBalance.innerText =total;
 
             withdrowInput.value = '';
